@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jerebha Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Jgold</span>
+      </div>
+      <div class="links">
+        <a href="#home" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+        <a href="#about" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+        <a href="#skills" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
+        <a href="#Projects" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Projects</a>
+        <a href="#Internship" class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Internship</a> 
+        <a href="#contact" class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact Us</a>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home" onclick="cancel()">Home</a>
+        <a href="#about" onclick="cancel()">About</a>
+        <a href="#skills" onclick="cancel()">Skills</a>
+        <a href="#Projects" onclick="cancel()">Projects</a>
+        <a href="#Internship" onclick="cancel()">Internship</a> 
+        <a href="#contact" onclick="cancel()">Contact Us</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+        <img src="profile.jpg" alt="Profile Image" />
+      </div>
+<div class="content" style="margin-top: 100px;">
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+          Hey I'm <span>JEREBHA GOLD J</span>
+        </h1>
+        
+<p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000" style="font-size: 16px;">
+    A passionate Computer Science Engineering 
+graduate with a strong foundation in programming, 
+web development, and database management. Seeking 
+an entry-level position in software development where 
+I can apply my knowledge of  Python, SQL, and 
+frontend technologies to build efficient and user
+friendly applications.
+  Let’s build something great together!
+</p>
+
+
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+          <a href="https://github.com/JerebhaGold" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/jerebha-gold-j-93a39630b" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+          <a href="Jerebha.pdf" download>
+            <button><i class="fa-solid fa-download"></i> Download CV</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section id="about">
+  <div class="container" data-aos="fade-up">
+    <h2>About Me</h2>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
+      <i class="fa-solid fa-code" style="color: #007bff; margin-right: 10px;"></i>
+      I’m a Computer Science Engineering graduate with a basic understanding of Python, SQL, and frontend technologies like HTML, CSS, and Bootstrap. I have built projects such as an E-commerce website and a personal portfolio, which helped me apply my classroom knowledge in a practical way.
+    </p>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+      <i class="fa-solid fa-laptop-code" style="color: #28a745; margin-right: 10px;"></i>
+      Through these projects, I gained experience in building responsive, mobile-friendly web pages using Bootstrap and improved my overall understanding of web development. While I may not have explored many advanced technologies yet, I am open to learning and willing to put in the effort to improve
+    </p>
+
+    <p class="intro-paragraph" style="font-size: 20px;" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="800">
+      <i class="fa-solid fa-rocket" style="color: #e83e8c; margin-right: 10px;"></i>
+      I am currently looking for an entry-level opportunity where I can apply what I’ve learned, gain hands-on experience, and grow at a steady pace as part of a supportive development team.
+    </p>
+
+  </div>
+</section>
+
+
+
+ <section id="skills">
+  <div class="container" data-aos="fade-up" style="text-align: center;">
+    <h2 style="color: black;">Skills</h2>
+
+    <div class="skills-boxes" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px">
+
+    
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="200" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-solid fa-database" style="font-size: 36px; color: #6f42c1; flex-shrink: 0;"></i>
+      <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+SQL</p>
+      </div>
+
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="400" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-python" style="font-size: 36px; color: #ff9900; flex-shrink: 0;"></i>
+        <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+Python programming</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="500" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-html5" style="font-size: 36px; color: #e34f26; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+HTML, CSS </p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="600" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-js" style="font-size: 36px; color: #f7df1e; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+JavaScript</p>
+      </div>
+
+      <div class="skill-box" data-aos="fade-up" data-aos-delay="700" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-bootstrap" style="font-size: 36px; color: #6c757d; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+        Bootstrap
+       </p>
+      </div>
+       <div class="skill-box" data-aos="fade-up" data-aos-delay="700" style="display: flex; align-items: center; width: 300px; height: 80px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 0 20px; background-color: #f1d1a4">
+        <i class="fa-brands fa-github" style="font-size: 36px; color: #6c757d; flex-shrink: 0;"></i>
+       <p style="margin: 0; display: flex; align-items: center; height: 100%; margin-left: 20px; font-size: 18px; color: black; flex-grow: 1;">
+        Git and GitHub
+       </p>
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+
+<section id="Projects">
+  <div class="container" data-aos="fade-up" style="max-width: 1100px; margin: auto;">
+
+    <h2 class="section-title" style="text-align: center; margin-bottom: 30px; color: #6d4300; text-shadow: 0 0 10px #b27300;">
+      Projects
+    </h2>
+
+    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      
+      <div style="flex: 1 1 500px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px; color: #4a90e2;">
+          <i class="fa-solid fa-user-lock"></i> Authentication System
+        </h3>
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px; color: #6d4300;">
+          This project is a secure money transfer application accessible through a web browser, designed for both admin and customer users. Each user has unique login credentials to keep their accounts safe.
+
+Customers can register their details using the website, and the admin securely stores this information. To transfer money, customers enter the recipient’s details and the amount to send. Before completing the transfer, the system asks for a thumb impression to verify the customer’s identity.
+
+Once the thumb impression matches, the transfer is processed securely. After the transaction, the customer receives an email and SMS notification confirming the transfer.
+        </p>
+        <p style="color: #6d4300;"><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem; color: #6d4300;">
+          <li>Developed the frontend interface for both admin and customer views, ensuring a smooth and responsive user experience.</li>
+          <li>Suggesting and helping integrate notification services using Gmail SMTP for email alerts and Vonage API for SMS notifications to keep customers informed after transactions.</li>
+        </ul>
+      </div>
+
+      <div style="flex: 1 1 500px; border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); background-color: #f5e2c6;">
+        <h3 style="display: flex; align-items: center; gap: 10px; font-size: 1.5rem; margin-bottom: 10px; color: #f39c12;">
+          <i class="fa-solid fa-shopping-cart"></i> Ecommerce Website
+        </h3>
+        <p style="font-size: 1rem; line-height: 1.4; margin-bottom: 10px; color: #6d4300;">
+          This project is a fully responsive eCommerce website designed to provide users with a seamless online shopping experience.I developed using HTML, CSS, and Bootstrap. The website includes a home page, product listings, and a navigation menu, all designed to be clean and user-friendly. I used Bootstrap components to give the site a modern look and made sure it works well on all screen sizes, including mobile devices. This project helped me improve my frontend development skills and understand how to build layouts that are both functional and visually appealing.
+        </p>
+        <p style="color: #6d4300;"><strong>What I focused on:</strong></p>
+        <ul style="margin-left: 20px; list-style-type: disc; font-size: 0.95rem; color: #6d4300;">
+          <li>Developed a responsive e-commerce website with product listings,home page design and navigation using HTML,CSS and Bootstrap  </li>
+          <li> Styled webpages with Bootstrap components for a modern look and implemented mobile responsiveness for a seamless experience on all devices</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  @media (max-width: 768px) {
+    .email-link {
+      font-size: 0.85rem !important;
+    }
+
+    .email-icon {
+      font-size: 1.4rem !important;
+    }
+  }
+</style>
+
+
+<section id="Internship" style="min-height: 100vh; padding: 80px 20px; display: flex; justify-content: center; align-items: center;">
+  <div class="container" data-aos="fade-up" style="max-width: 1100px; width: 100%; margin: auto; text-align: center;">
+    
+    <h2 style="text-align: center; margin-bottom: 40px; color: #6d4300; text-shadow: 0 0 10px #b27300; font-size: 2.2rem;">
+      Internship
+    </h2>
+
+    <!-- Internship Card -->
+    <div data-aos="fade-up" style="background-color: #f5e2c6; 
+         box-shadow: 0 6px 18px rgba(0,0,0,0.15); 
+         border-radius: 15px; 
+         padding: 40px; 
+         margin: 0 auto; 
+         max-width: 1500px; 
+         width: 100%;
+         min-height: 380px;
+         display: flex; 
+         flex-direction: column; 
+         justify-content: center; 
+         align-items: flex-start; 
+         text-align: left;">
+      
+     <h3 style="margin: 0 0 30px; color: #6d4300; font-size: 1.6rem; text-align: center; width: 100%;">
+  WIKPOLT SOFTWARES, NAGERCOIL
+</h3>
+
+      
+      <p style="margin: 0 0 15px; color: #6d4300; font-size: 1.05rem; line-height: 1.6;">
+        Designed and developed an E-commerce Website using <strong>HTML, CSS, and Bootstrap</strong> 
+        and created a personal portfolio.  
+        Built responsive and mobile-friendly web pages using Bootstrap and gained 
+        hands-on experience in frontend web development.
+      </p>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" style="padding: 80px 20px;">
+  <div class="container" data-aos="fade-up"  data-aos-duration="2000" style="max-width: 900px; margin: 0 auto; padding: 0 20px; text-align: center; color: #6d4300;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 30px; text-shadow: 0 0 10px #b27300;">📞 Contact Me</h2>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; justify-items: center;">
+      
+      <div data-aos="fade-right" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+  <i class="fas fa-envelope email-icon" style="font-size: 1.8rem; color: #b27300;"></i>
+  <a href="mailto:jerebhagold@gmail.com" class="email-link" style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">jerebhagold@gmail.com</a>
+</div>
+
+      <div data-aos="fade-left" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+        <i class="fab fa-linkedin" style="font-size: 1.8rem; color: #b27300;"></i>
+        <a href="https://www.linkedin.com/in/jerebha-gold-j-93a39630b" target="_blank" style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">LinkedIn Profile</a>
+      </div>
+
+      <div data-aos="fade-left" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+        <i class="fas fa-phone" style="font-size: 1.8rem; color: #b27300;"></i>
+        <span style="font-size: 1.05rem; font-weight: 500; color: #6d4300;">+91 9944163057</span>
+      </div>
+
+      <div data-aos="fade-right" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+        <i class="fas fa-map-marker-alt" style="font-size: 1.8rem; color: #b27300;"></i>
+        <span style="font-size: 1.05rem; font-weight: 500; color: #6d4300;">Kanniyakumari Dist, Tamil Nadu</span>
+      </div>
+
+      <div data-aos="fade-left" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+        <i class="fab fa-github" style="font-size: 1.8rem; color: #b27300;"></i>
+        <a href="https://github.com/JerebhaGold" target="_blank" style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">GitHub Profile</a>
+      </div>
+
+      <div data-aos="fade-up" style="background: #f1d1a4; padding: 20px 25px; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); display: flex; align-items: center; gap: 15px; max-width: 400px; width: 100%;">
+        <i class="fas fa-file-alt" style="font-size: 1.8rem; color: #b27300;"></i>
+        <a href="Jerebha.pdf" download style="font-size: 1.05rem; font-weight: 500; color: #6d4300; text-decoration: none;">Download Resume</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+
+    function hamburg() {
+      document.querySelector(".dropdown").style.transform = "translateY(0)";
+    }
+    function cancel() {
+      document.querySelector(".dropdown").style.transform = "translateY(-100%)";
+    }
+  </script>
+</body>
+</html>
